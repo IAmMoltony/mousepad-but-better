@@ -67,8 +67,8 @@ mousepad_dialogs_show_about (GtkWindow *parent)
   /* show the dialog */
   gtk_show_about_dialog (parent,
                          "authors", authors,
-                         "comments", _("Mousepad is a simple text editor for the Xfce desktop environment"),
-                         "copyright", "Copyright \xc2\xa9 2005-2023 - the Mousepad developers",
+                         "comments", _("\"Mousepad but Better\" is a fork of Mousepad."),
+                         "copyright", "Copyright \xc2\xa9 2005-2023 - the Mousepad developers\nFork by Moltony 2023",
                          "destroy-with-parent", TRUE,
                          "license-type", GTK_LICENSE_GPL_2_0,
                          "logo-icon-name", MOUSEPAD_ID,
