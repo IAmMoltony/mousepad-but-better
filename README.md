@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/apps/mousepad/-/blob/master/COPYING)
 
-# mousepad
+# mousepad but better
 
 Mousepad is a simple text editor for the [Xfce](https://www.xfce.org) desktop environment.
 
@@ -10,6 +10,13 @@ editor with a huge bunch of plugins. On the other hand we try to use the latest
 GTK features available, which means that if GTK adds something new in a major
 release that is useful for the editor, we will likely bump the GTK dependency
 and integrate this new feature in Mousepad.
+
+"Mousepad but better" is a fork of Mousepad with some changes.
+
+Current custom changes include:
+
+- No "running as root is dangerous" label when running as root
+- that's literally it i created this fork just for that
 
 ----
 
