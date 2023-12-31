@@ -1211,7 +1211,7 @@ mousepad_window_init (MousepadWindow *window)
   gtk_widget_show (window->toolbar_box);
 
   /* create the root-warning bar (if needed) */
-  mousepad_window_create_root_warning (window);
+  //mousepad_window_create_root_warning (window);
 
   /* create the notebook */
   mousepad_window_create_notebook (window);
